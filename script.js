@@ -3,7 +3,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  // listed all variables desired
+  // listed all desired variables
   var passwordText = document.querySelector("#password");
   var characters = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()_+132456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var number = "1234567890"
